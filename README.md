@@ -1,0 +1,2 @@
+# Instalaciones
+Wiki sobre instalaciones 
