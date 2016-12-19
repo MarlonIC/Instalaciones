@@ -1,2 +1,3 @@
 # Instalaciones
-Wiki sobre instalaciones 
+
+Manual corto de Programas de Instalacion en Linux - varios
