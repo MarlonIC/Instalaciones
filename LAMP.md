@@ -1,4 +1,4 @@
-##Instalacion de LAMP enUbuntu
+##Instalacion de LAMP en Ubuntu
 Ingresar como usuario root y actualizar los paquetes  
 `$ sudo`  
 `$ apt-get update` 
