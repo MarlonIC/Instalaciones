@@ -1,3 +1,5 @@
+#Instalacion de Sublime Text 3 en Debian (desktop Mate)
+
 Abrimos la pagina oficial de sublim text 3: https://www.sublimetext.com/3 y descargamos el paquete de acuerdo a nuestra arquitectura.
 
 Obtenemos Sublim text 3 con el siguiente comando:  
