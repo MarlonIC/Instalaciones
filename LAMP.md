@@ -51,3 +51,21 @@ Añadir en /etc/opt/sources.list los siguientes paquetes si en caso no hay un pa
 El comando siguiente instala PHP, la libreria para interactuar con el servidor Apache2, la libreria de encriptacion y la libreria para interactuar con Mysql  
 El comando siguiente instala PHP, la libreria para interactuar con el servidor Apache2, la libreria de encriptacion y la libreria para interactuar con Mysql  
 `$ sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-mysql`
+
+###Otras configuraciones importantes:  
+
+Activar el mod_rewrite en apache2
+`$ sudo a2enmod rewrite`  
+
+Descomentar la siguiente linea en /etc/apahe2/apache2.conf
+>AccessFileName .htaccess
+
+Buscar la siguiente seccion:  
+
+    <Directory /var/www/>  
+        Options Indexes FollowSymLinks  
+        AllowOverride None  
+        Require all granted  
+    </Directory>  
+
+y cambiar "AllowOverride None" por "AllowOverride All"
