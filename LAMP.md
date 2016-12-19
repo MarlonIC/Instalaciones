@@ -71,3 +71,6 @@ Buscar la siguiente seccion:
     </Directory>  
 
 y cambiar "AllowOverride None" por "AllowOverride All"
+
+Reiniciar o Recargar el servicio  
+`$ service apache2 reload` 
