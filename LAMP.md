@@ -54,11 +54,13 @@ El comando siguiente instala PHP, la libreria para interactuar con el servidor A
 
 ###Otras configuraciones importantes:  
 
-Activar el mod_rewrite en apache2
+Activar el mod_rewrite en apache2  
 `$ sudo a2enmod rewrite`  
 
-Descomentar la siguiente linea en /etc/apahe2/apache2.conf
+
+Descomentar la siguiente linea en /etc/apahe2/apache2.conf  
 >AccessFileName .htaccess
+
 
 Buscar la siguiente seccion:  
 
