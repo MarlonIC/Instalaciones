@@ -50,4 +50,4 @@ Añadir en /etc/opt/sources.list los siguientes paquetes si en caso no hay un pa
     
 El comando siguiente instala PHP, la libreria para interactuar con el servidor Apache2, la libreria de encriptacion y la libreria para interactuar con Mysql  
 El comando siguiente instala PHP, la libreria para interactuar con el servidor Apache2, la libreria de encriptacion y la libreria para interactuar con Mysql  
-`$ sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-mysql`  $ sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-mysql`  
+`$ sudo apt-get install php7.0 libapache2-mod-php7.0 php7.0-mcrypt php7.0-mysql`
