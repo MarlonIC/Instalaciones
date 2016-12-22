@@ -74,3 +74,14 @@ y cambiar "AllowOverride None" por "AllowOverride All"
 
 Reiniciar o Recargar el servicio  
 `$ service apache2 reload` 
+
+#### Activar https 
+Archivo de ssl
+>/etc/apache2/sites-available/default-ssl.conf  
+
+Correr el siguiente comando para activar los certificados ssl  
+`$ a2enmod ssl`  
+`$ a2ensite default-ssl` 
+
+Reiniciar o Recargar el servicio  
+`$ service apache2 reload` 
